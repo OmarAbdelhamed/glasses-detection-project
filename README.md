@@ -83,7 +83,3 @@ python eyeglass_detector.py
 - Lightweight and real-time; no training required.
 - May not be accurate in very low lighting or side angles.
 - Can be enhanced using deep learning or MediaPipe in future.
-
-## 📄 License
-
-This project is under the MIT License.
