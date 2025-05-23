@@ -37,7 +37,7 @@ conda activate glasses-detection
 Alternatively, manually install packages with the specified versions:
 
 ```bash
-pip install opencv-python==4.8.0.76 dlib==19.24.0 numpy==1.24.3
+pip install opencv-python==3.4.0.12 dlib==19.7.0 numpy==1.14
 ```
 
 > You may also need CMake and Boost installed for dlib.
