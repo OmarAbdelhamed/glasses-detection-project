@@ -1,0 +1,11 @@
+name: vision36
+channels:
+  - conda-forge
+  - menpo # optional fallback for older OpenCV builds
+dependencies:
+  - python=3.6
+  - numpy=1.14
+  - pip
+  - pip:
+      - dlib==19.7.0
+      - opencv-python==3.4.0.12
