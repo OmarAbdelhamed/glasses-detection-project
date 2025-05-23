@@ -25,6 +25,23 @@ It then evaluates two specific regions (under the eyes and across the nose bridg
 
 ## 🚀 Installation & Running
 
+### Environment Setup
+
+You can create a conda environment with all required packages using the provided `environment.yml` file:
+
+```bash
+conda env create -f environment.yml
+conda activate glasses-detection
+```
+
+Alternatively, manually install packages with the specified versions:
+
+```bash
+pip install opencv-python==4.8.0.76 dlib==19.24.0 numpy==1.24.3
+```
+
+> You may also need CMake and Boost installed for dlib.
+
 ### 1. Install dependencies
 
 ```bash
